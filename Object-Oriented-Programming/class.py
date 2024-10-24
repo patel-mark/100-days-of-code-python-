@@ -1,4 +1,4 @@
-class toycar:
+"""class toycar:
     
     def __init__(self,color,speed):
         
@@ -11,5 +11,14 @@ class toycar:
         
 car=toycar('grey','80khm')
 
-car.drive()
+car.drive()"""
 
+class car:
+
+    def __init__(self,name,color):
+
+        self.name=name
+        self.color=color
+
+def sports(car):
+    
